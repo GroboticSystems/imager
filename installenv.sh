@@ -14,11 +14,13 @@ git clone https://github.com//mkaczanowski/packer-builder-arm/
 cd packer-builder-arm
 go mod download
 go build
+go install 
 sudo cp packer-builder-arm /usr/local/bin
+cp packer-builder-arm ../
 cd ..
 
 
-# INSTALL PISHRINKK
+# INSTALL PISHRINK
 wget https://raw.githubusercontent.com/Drewsif/PiShrink/master/pishrink.sh
 chmod +x pishrink.sh
 sudo mv pishrink.sh /usr/local/bin
