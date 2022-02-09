@@ -10,8 +10,8 @@ go install
 cd ..
 
 # INSTALL PACKER-BUILDER-ARM
-git clone https://github.com//mkaczanowski/packer-builder-arm/
-cd packer-builder-arm
+git clone https://github.com//mkaczanowski/packer-builder-arm/ packer-arm
+cd packer-arm
 go mod download
 go build
 sudo cp packer-builder-arm /usr/local/bin
